@@ -152,6 +152,10 @@ Landroid/net/wifi/IWifiConnectedNetworkScorer$Default;->asBinder()Landroid/os/IB
 Landroid/net/wifi/IWifiConnectedNetworkScorer$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/net/wifi/IWifiConnectedNetworkScorer$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/net/wifi/IWifiConnectedNetworkScorer$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
+Landroid/net/wifi/IWifiDeviceLowLatencyModeListener$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/net/wifi/IWifiDeviceLowLatencyModeListener$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/net/wifi/IWifiDeviceLowLatencyModeListener$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/net/wifi/IWifiDeviceLowLatencyModeListener$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
 Landroid/net/wifi/IWifiManager$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/net/wifi/IWifiManager$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/net/wifi/IWifiManager$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
@@ -1235,6 +1239,7 @@ Landroid/net/wifi/WifiManager$OnDriverCountryCodeChangedProxy$$ExternalSynthetic
 Landroid/net/wifi/WifiManager$OnDriverCountryCodeChangedProxy$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/wifi/WifiManager$OnWifiActivityEnergyInfoListener;->onWifiActivityEnergyInfo(Landroid/os/connectivity/WifiActivityEnergyInfo;)V,system-api,test-api
 Landroid/net/wifi/WifiManager$OnWifiActivityEnergyInfoProxy$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/wifi/WifiManager$OnWifiDeviceLowLatencyModeProxy$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/wifi/WifiManager$OnWifiNetworkStateChangedProxy$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/wifi/WifiManager$OnWifiUsabilityStatsListener;->onWifiUsabilityStats(IZLandroid/net/wifi/WifiUsabilityStatsEntry;)V,system-api,test-api
 Landroid/net/wifi/WifiManager$PnoScanResultsCallback;->REGISTER_PNO_CALLBACK_ALREADY_REGISTERED:I,system-api,test-api
