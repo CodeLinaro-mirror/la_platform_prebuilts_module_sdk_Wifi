@@ -30,6 +30,7 @@ android/net/wifi/ISuggestionConnectionStatusListener
 android/net/wifi/ISuggestionUserApprovalStatusListener
 android/net/wifi/ITrafficStateCallback
 android/net/wifi/IWifiConnectedNetworkScorer
+android/net/wifi/IWifiDeviceLowLatencyModeListener
 android/net/wifi/IWifiManager
 android/net/wifi/IWifiNetworkSelectionConfigListener
 android/net/wifi/IWifiNetworkStateChangedListener
