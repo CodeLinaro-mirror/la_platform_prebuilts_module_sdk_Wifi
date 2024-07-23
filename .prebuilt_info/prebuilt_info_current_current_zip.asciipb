@@ -1,18 +1,6 @@
 drops {
   android_build_drop {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    build_id: "T1009772"
-||||||| merged common ancestors
-    build_id: "T1010120"
-=======
     build_id: "T1010137"
->>>>>>> 610de29e22c83d6ad668f2bf841f8b9ec3164df0
-||||||| 610de29
-    build_id: "T1010137"
-=======
-    build_id: "T1010146"
->>>>>>> 5ee143b0a1d84f85886026017e1547564dc6bb88
     target: "train_build"
     source_file: "mainline-sdks/for-latest-build/current/com.google.android.wifi/sdk/wifi-module-sdk-current.zip"
   }
