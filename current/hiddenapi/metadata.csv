@@ -79,6 +79,8 @@ signature,maxTargetSdk,overrideSourcePosition,publicAlternatives,trackingBug
 |Landroid/net/wifi/WifiManager;->initializeMulticastFiltering()Z|,||,||,||,||
 |Landroid/net/wifi/WifiManager;->mActiveLockCount:I|,||,||,||,||
 |Landroid/net/wifi/WifiManager;->mService:Landroid/net/wifi/IWifiManager;|,||,||,||,||
+|Landroid/net/wifi/WifiNetworkSpecifier$Builder;->setPreferSecondarySta(Z)Landroid/net/wifi/WifiNetworkSpecifier$Builder;|,||,||,||,||
+|Landroid/net/wifi/WifiNetworkSpecifier;->isPreferSecondarySta()Z|,||,||,||,||
 |Landroid/net/wifi/WifiSsid;->NONE:Ljava/lang/String;|,||,||,|{@link android.net.wifi.WifiManager#UNKNOWN_SSID}|,||
 |Landroid/net/wifi/WifiSsid;->createFromAsciiEncoded(Ljava/lang/String;)Landroid/net/wifi/WifiSsid;|,||,||,|{@link #fromBytes(byte[])}|,||
 |Landroid/net/wifi/WifiSsid;->getOctets()[B|,||,||,|{@link #getBytes()}|,||
