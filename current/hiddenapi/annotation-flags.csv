@@ -111,7 +111,7 @@ Landroid/net/wifi/p2p/WifiP2pManager;->startWps(Landroid/net/wifi/p2p/WifiP2pMan
 Landroid/net/wifi/p2p/WifiP2pProvDiscEvent;-><init>()V,unsupported
 Landroid/net/wifi/p2p/WifiP2pProvDiscEvent;->device:Landroid/net/wifi/p2p/WifiP2pDevice;,unsupported
 Landroid/net/wifi/p2p/WifiP2pProvDiscEvent;->event:I,unsupported
-Landroid/net/wifi/p2p/WifiP2pProvDiscEvent;->pairingPinOrPassphrase:Ljava/lang/String;,unsupported
+Landroid/net/wifi/p2p/WifiP2pProvDiscEvent;->isComeback:Z,unsupported
 Landroid/net/wifi/p2p/WifiP2pProvDiscEvent;->wpsPin:Ljava/lang/String;,unsupported
 Landroid/net/wifi/p2p/WifiP2pWfdInfo;-><init>(III)V,unsupported
 Landroid/net/wifi/p2p/nsd/WifiP2pDnsSdServiceInfo;->createRequest(Ljava/lang/String;II)Ljava/lang/String;,max-target-p
