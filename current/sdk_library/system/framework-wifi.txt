@@ -521,7 +521,7 @@ package android.net.wifi {
     method @NonNull public android.net.wifi.SoftApConfiguration.Builder setBlockedClientList(@NonNull java.util.List<android.net.MacAddress>);
     method @NonNull public android.net.wifi.SoftApConfiguration.Builder setBridgedModeOpportunisticShutdownEnabled(boolean);
     method @NonNull public android.net.wifi.SoftApConfiguration.Builder setBridgedModeOpportunisticShutdownTimeoutMillis(@IntRange(from=0xffffffff) long);
-    method @NonNull public android.net.wifi.SoftApConfiguration.Builder setBssid(@Nullable android.net.MacAddress);
+    method @NonNull @RequiresPermission(anyOf={android.Manifest.permission.NETWORK_SETTINGS, android.Manifest.permission.NETWORK_STACK, android.net.NetworkStack.PERMISSION_MAINLINE_NETWORK_STACK}, conditional=true) public android.net.wifi.SoftApConfiguration.Builder setBssid(@Nullable android.net.MacAddress);
     method @NonNull public android.net.wifi.SoftApConfiguration.Builder setChannel(int, int);
     method @NonNull public android.net.wifi.SoftApConfiguration.Builder setClientControlByUserEnabled(boolean);
     method @NonNull public android.net.wifi.SoftApConfiguration.Builder setClientIsolationEnabled(boolean);
@@ -1835,7 +1835,7 @@ package android.net.wifi.twt {
 
   public final class TwtRequest implements android.os.Parcelable {
     method public int describeContents();
-    method @IntRange(from=android.net.wifi.MloLink.INVALID_MLO_LINK_ID, to=android.net.wifi.MloLink.MAX_MLO_LINK_ID) public int getLinkId();
+    method @IntRange(from=android.net.wifi.MloLink.INVALID_MLO_LINK_ID, to=0xf) public int getLinkId();
     method public int getMaxWakeDurationMicros();
     method public long getMaxWakeIntervalMicros();
     method public int getMinWakeDurationMicros();
@@ -1847,7 +1847,7 @@ package android.net.wifi.twt {
   public static final class TwtRequest.Builder {
     ctor public TwtRequest.Builder(int, int, long, long);
     method @NonNull public android.net.wifi.twt.TwtRequest build();
-    method @NonNull public android.net.wifi.twt.TwtRequest.Builder setLinkId(@IntRange(from=android.net.wifi.MloLink.MIN_MLO_LINK_ID, to=android.net.wifi.MloLink.MAX_MLO_LINK_ID) int);
+    method @NonNull public android.net.wifi.twt.TwtRequest.Builder setLinkId(@IntRange(from=0x0, to=0xf) int);
   }
 
   public interface TwtSession {
