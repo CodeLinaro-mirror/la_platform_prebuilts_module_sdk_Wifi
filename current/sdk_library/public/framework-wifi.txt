@@ -1985,7 +1985,7 @@ package android.net.wifi.rtt {
     method @NonNull public android.net.wifi.rtt.ResponderConfig.Builder setCenterFreq1Mhz(@IntRange(from=0) int);
     method @NonNull public android.net.wifi.rtt.ResponderConfig.Builder setChannelWidth(int);
     method @NonNull public android.net.wifi.rtt.ResponderConfig.Builder setFrequencyMhz(@IntRange(from=0) int);
-    method @NonNull public android.net.wifi.rtt.ResponderConfig.Builder setMacAddress(@Nullable android.net.MacAddress);
+    method @NonNull public android.net.wifi.rtt.ResponderConfig.Builder setMacAddress(@NonNull android.net.MacAddress);
     method @NonNull public android.net.wifi.rtt.ResponderConfig.Builder setPreamble(int);
     method @NonNull public android.net.wifi.rtt.ResponderConfig.Builder setResponderType(int);
     method @NonNull public android.net.wifi.rtt.ResponderConfig.Builder setSecureRangingConfig(@NonNull android.net.wifi.rtt.SecureRangingConfig);
