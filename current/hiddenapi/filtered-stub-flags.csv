@@ -159,10 +159,6 @@ Landroid/net/wifi/ILocalOnlyConnectionStatusListener$Default;->asBinder()Landroi
 Landroid/net/wifi/ILocalOnlyConnectionStatusListener$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/net/wifi/ILocalOnlyConnectionStatusListener$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/net/wifi/ILocalOnlyConnectionStatusListener$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
-Landroid/net/wifi/ILocalOnlyDisconnectionStatusListener$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Landroid/net/wifi/ILocalOnlyDisconnectionStatusListener$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Landroid/net/wifi/ILocalOnlyDisconnectionStatusListener$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Landroid/net/wifi/ILocalOnlyDisconnectionStatusListener$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
 Landroid/net/wifi/ILocalOnlyHotspotCallback$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/net/wifi/ILocalOnlyHotspotCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/net/wifi/ILocalOnlyHotspotCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
@@ -1446,7 +1442,6 @@ Landroid/net/wifi/WifiManager$InterfaceCreationImpact;->getPackages()Ljava/util/
 Landroid/net/wifi/WifiManager$InterfaceCreationImpact;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/net/wifi/WifiManager$LocalOnlyConnectionFailureListener;->onConnectionFailed(Landroid/net/wifi/WifiNetworkSpecifier;I)V,public-api,system-api,test-api
 Landroid/net/wifi/WifiManager$LocalOnlyConnectionStatusListenerProxy$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
-Landroid/net/wifi/WifiManager$LocalOnlyDisconnectionStatusListenerProxy$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/wifi/WifiManager$LocalOnlyHotspotCallback;-><init>()V,public-api,system-api,test-api
 Landroid/net/wifi/WifiManager$LocalOnlyHotspotCallback;->ERROR_GENERIC:I,public-api,system-api,test-api
 Landroid/net/wifi/WifiManager$LocalOnlyHotspotCallback;->ERROR_INCOMPATIBLE_MODE:I,public-api,system-api,test-api
@@ -2584,7 +2579,6 @@ Landroid/net/wifi/aware/AwarePairingConfig;->hashCode()I,core-platform-api,publi
 Landroid/net/wifi/aware/AwarePairingConfig;->isPairingCacheEnabled()Z,public-api,system-api,test-api
 Landroid/net/wifi/aware/AwarePairingConfig;->isPairingSetupEnabled()Z,public-api,system-api,test-api
 Landroid/net/wifi/aware/AwarePairingConfig;->isPairingVerificationEnabled()Z,public-api,system-api,test-api
-Landroid/net/wifi/aware/AwarePairingConfig;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/net/wifi/aware/AwarePairingConfig;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/net/wifi/aware/AwareParams$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/net/wifi/aware/AwareParams$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
@@ -3659,12 +3653,10 @@ Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceConfig;->CREATOR:Landroid/os/Par
 Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceConfig;->SERVICE_PROTOCOL_TYPE_BONJOUR:I,public-api,system-api,test-api
 Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceConfig;->SERVICE_PROTOCOL_TYPE_GENERIC:I,public-api,system-api,test-api
 Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceConfig;->describeContents()I,public-api,system-api,test-api
-Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceConfig;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceConfig;->getMaxAllowedServiceSpecificInfoLength()I,public-api,system-api,test-api
 Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceConfig;->getServiceName()Ljava/lang/String;,public-api,system-api,test-api
 Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceConfig;->getServiceProtocolType()I,public-api,system-api,test-api
 Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceConfig;->getServiceSpecificInfo()[B,public-api,system-api,test-api
-Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceConfig;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceConfig;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceConfig;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/net/wifi/p2p/nsd/WifiP2pUsdBasedServiceResponse$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
@@ -4197,9 +4189,6 @@ Lcom/android/wifi/x/android/security/CustomFeatureFlags$$ExternalSyntheticLambda
 Lcom/android/wifi/x/android/security/CustomFeatureFlags$$ExternalSyntheticLambda14;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/security/CustomFeatureFlags$$ExternalSyntheticLambda15;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/security/CustomFeatureFlags$$ExternalSyntheticLambda16;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/android/security/CustomFeatureFlags$$ExternalSyntheticLambda17;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/android/security/CustomFeatureFlags$$ExternalSyntheticLambda18;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/android/security/CustomFeatureFlags$$ExternalSyntheticLambda19;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/security/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/security/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/security/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -4260,8 +4249,6 @@ Lcom/android/wifi/x/com/android/ranging/flags/CustomFeatureFlags$$ExternalSynthe
 Lcom/android/wifi/x/com/android/ranging/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/ranging/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/ranging/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/com/android/ranging/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/com/android/ranging/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda10;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda11;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -4309,13 +4296,6 @@ Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSynthetic
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda50;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda51;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda52;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda53;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda54;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda55;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda56;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda57;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda58;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda7;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
