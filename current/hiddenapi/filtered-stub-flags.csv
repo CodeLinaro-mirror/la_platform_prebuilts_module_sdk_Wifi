@@ -1129,6 +1129,7 @@ Landroid/net/wifi/WifiConfiguration;->getVendorData()Ljava/util/List;,system-api
 Landroid/net/wifi/WifiConfiguration;->hasNoInternetAccess()Z,system-api,test-api
 Landroid/net/wifi/WifiConfiguration;->hiddenSSID:Z,public-api,system-api,test-api
 Landroid/net/wifi/WifiConfiguration;->isAllowedToUpdateByOtherUsers()Z,public-api,system-api,test-api
+Landroid/net/wifi/WifiConfiguration;->isAutoJoinInAdvancedProtectionModeEnabled()Z,system-api,test-api
 Landroid/net/wifi/WifiConfiguration;->isDppConfigurator()Z,public-api,system-api,test-api
 Landroid/net/wifi/WifiConfiguration;->isEphemeral()Z,system-api,test-api
 Landroid/net/wifi/WifiConfiguration;->isHomeProviderNetwork:Z,public-api,system-api,test-api
@@ -1156,6 +1157,7 @@ Landroid/net/wifi/WifiConfiguration;->providerFriendlyName:Ljava/lang/String;,pu
 Landroid/net/wifi/WifiConfiguration;->requirePmf:Z,system-api,test-api
 Landroid/net/wifi/WifiConfiguration;->roamingConsortiumIds:[J,public-api,system-api,test-api
 Landroid/net/wifi/WifiConfiguration;->setAllowedToUpdateByOtherUsers(Z)V,public-api,system-api,test-api
+Landroid/net/wifi/WifiConfiguration;->setAutoJoinInAdvancedProtectionModeEnabled(Z)V,system-api,test-api
 Landroid/net/wifi/WifiConfiguration;->setBssidAllowlist(Ljava/util/List;)V,system-api,test-api
 Landroid/net/wifi/WifiConfiguration;->setDeletionPriority(I)V,system-api,test-api
 Landroid/net/wifi/WifiConfiguration;->setHttpProxy(Landroid/net/ProxyInfo;)V,public-api,system-api,test-api
@@ -4614,8 +4616,6 @@ Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSynthetic
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda61;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda62;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda63;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda64;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda65;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda7;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/com/android/wifi/flags/CustomFeatureFlags$$ExternalSyntheticLambda8;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
