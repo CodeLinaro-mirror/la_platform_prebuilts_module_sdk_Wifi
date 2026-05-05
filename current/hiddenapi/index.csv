@@ -1,7 +1,7 @@
 signature,properties
-Landroid/net/wifi/IWifiManager;->getWifiApEnabledState()I,overrideSourcePosition=%22packages%2Fmodules%2FWifi%2Fframework%2Fjava%2Fandroid%2Fnet%2Fwifi%2FIWifiManager.aidl%3A275%3A1%3A275%3A25%22
-Landroid/net/wifi/IWifiManager;->getWifiApConfiguration()Landroid/net/wifi/WifiConfiguration;,overrideSourcePosition=%22packages%2Fmodules%2FWifi%2Fframework%2Fjava%2Fandroid%2Fnet%2Fwifi%2FIWifiManager.aidl%3A277%3A1%3A277%3A25%22
-Landroid/net/wifi/IWifiManager;->getCurrentNetwork()Landroid/net/Network;,maxTargetSdk=30&trackingBug=170729553L&overrideSourcePosition=%22packages%2Fmodules%2FWifi%2Fframework%2Fjava%2Fandroid%2Fnet%2Fwifi%2FIWifiManager.aidl%3A313%3A1%3A313%3A65%22
+Landroid/net/wifi/IWifiManager;->getWifiApEnabledState()I,overrideSourcePosition=%22packages%2Fmodules%2FWifi%2Fframework%2Fjava%2Fandroid%2Fnet%2Fwifi%2FIWifiManager.aidl%3A274%3A1%3A274%3A25%22
+Landroid/net/wifi/IWifiManager;->getWifiApConfiguration()Landroid/net/wifi/WifiConfiguration;,overrideSourcePosition=%22packages%2Fmodules%2FWifi%2Fframework%2Fjava%2Fandroid%2Fnet%2Fwifi%2FIWifiManager.aidl%3A276%3A1%3A276%3A25%22
+Landroid/net/wifi/IWifiManager;->getCurrentNetwork()Landroid/net/Network;,maxTargetSdk=30&trackingBug=170729553L&overrideSourcePosition=%22packages%2Fmodules%2FWifi%2Fframework%2Fjava%2Fandroid%2Fnet%2Fwifi%2FIWifiManager.aidl%3A312%3A1%3A312%3A65%22
 Landroid/net/wifi/ScanResult$InformationElement;->EID_SSID:I,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/wifi/ScanResult$InformationElement;->EID_SUPPORTED_RATES:I,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/wifi/ScanResult$InformationElement;->EID_TIM:I,maxTargetSdk=30&trackingBug=170729553L
