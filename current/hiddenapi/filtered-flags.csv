@@ -3875,6 +3875,7 @@ Landroid/net/wifi/aware/WifiAwareManager$1$$ExternalSyntheticLambda0;->run()V,co
 Landroid/net/wifi/aware/WifiAwareManager$2$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/wifi/aware/WifiAwareManager$3$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/wifi/aware/WifiAwareManager$4$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/wifi/aware/WifiAwareManager$5$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/wifi/aware/WifiAwareManager$WifiAwareDiscoverySessionCallbackProxy$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/wifi/aware/WifiAwareManager$WifiAwareDiscoverySessionCallbackProxy$$ExternalSyntheticLambda10;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/wifi/aware/WifiAwareManager$WifiAwareDiscoverySessionCallbackProxy$$ExternalSyntheticLambda11;->run()V,core-platform-api,public-api,sdk,system-api,test-api
