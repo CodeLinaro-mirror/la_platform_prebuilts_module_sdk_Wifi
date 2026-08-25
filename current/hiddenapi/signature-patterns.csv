@@ -7,10 +7,12 @@ android/net/wifi/EAPConstants
 android/net/wifi/EasyConnectStatusCallback
 android/net/wifi/IActionListener
 android/net/wifi/IBooleanListener
+android/net/wifi/IBooleanListenerWithFailure
 android/net/wifi/IByteArrayListener
 android/net/wifi/ICoexCallback
 android/net/wifi/IDppCallback
 android/net/wifi/IIntegerListener
+android/net/wifi/IIntegerListenerWithFailure
 android/net/wifi/IInterfaceCreationInfoCallback
 android/net/wifi/ILastCallerListener
 android/net/wifi/IListListener
@@ -31,6 +33,7 @@ android/net/wifi/IScanDataListener
 android/net/wifi/IScanResultsCallback
 android/net/wifi/IScanResultsListener
 android/net/wifi/IScoreUpdateObserver
+android/net/wifi/ISignalPollCallback
 android/net/wifi/ISoftApCallback
 android/net/wifi/IStringListener
 android/net/wifi/ISubsystemRestartCallback
@@ -40,6 +43,7 @@ android/net/wifi/ITrafficStateCallback
 android/net/wifi/ITwtCallback
 android/net/wifi/ITwtCapabilitiesListener
 android/net/wifi/ITwtStatsListener
+android/net/wifi/ITxPacketCountersCallback
 android/net/wifi/IWifiBandsListener
 android/net/wifi/IWifiConnectedNetworkScorer
 android/net/wifi/IWifiLowLatencyLockListener
@@ -65,6 +69,7 @@ android/net/wifi/SoftApInfo
 android/net/wifi/SoftApState
 android/net/wifi/SupplicantState
 android/net/wifi/SynchronousExecutor
+android/net/wifi/TxPacketCounters
 android/net/wifi/UriParserResults
 android/net/wifi/WifiAnnotations
 android/net/wifi/WifiAvailableChannel
@@ -83,6 +88,7 @@ android/net/wifi/WifiNetworkSelectionConfig
 android/net/wifi/WifiNetworkSpecifier
 android/net/wifi/WifiNetworkSuggestion
 android/net/wifi/WifiScanner
+android/net/wifi/WifiSignalPollResults
 android/net/wifi/WifiSsid
 android/net/wifi/WifiStringResourceWrapper
 android/net/wifi/WifiTwtSession
