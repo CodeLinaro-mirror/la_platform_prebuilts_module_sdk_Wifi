@@ -3,6 +3,7 @@ android/net/wifi/BatchedScanResult
 android/net/wifi/BlockingOption
 android/net/wifi/CoexUnsafeChannel
 android/net/wifi/DeauthenticationReasonCode
+android/net/wifi/DeviceWiphyCapabilities
 android/net/wifi/EAPConstants
 android/net/wifi/EasyConnectStatusCallback
 android/net/wifi/IActionListener
@@ -10,6 +11,7 @@ android/net/wifi/IBooleanListener
 android/net/wifi/IBooleanListenerWithFailure
 android/net/wifi/IByteArrayListener
 android/net/wifi/ICoexCallback
+android/net/wifi/IDeviceWiphyCapabilitiesCallback
 android/net/wifi/IDppCallback
 android/net/wifi/IIntegerListener
 android/net/wifi/IIntegerListenerWithFailure
@@ -50,6 +52,7 @@ android/net/wifi/IWifiLowLatencyLockListener
 android/net/wifi/IWifiManager
 android/net/wifi/IWifiNetworkSelectionConfigListener
 android/net/wifi/IWifiNetworkStateChangedListener
+android/net/wifi/IWifiScanResultInterceptor
 android/net/wifi/IWifiScanner
 android/net/wifi/IWifiScannerListener
 android/net/wifi/IWifiStateChangedListener
@@ -87,6 +90,7 @@ android/net/wifi/WifiNetworkConnectionStatistics
 android/net/wifi/WifiNetworkSelectionConfig
 android/net/wifi/WifiNetworkSpecifier
 android/net/wifi/WifiNetworkSuggestion
+android/net/wifi/WifiScanResultInterceptor
 android/net/wifi/WifiScanner
 android/net/wifi/WifiSignalPollResults
 android/net/wifi/WifiSsid
