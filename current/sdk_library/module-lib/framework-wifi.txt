@@ -1,18 +1,9 @@
 // Signature format: 2.0
 package android.net.wifi {
 
-  @RestrictedForEnvironment(environments=android.annotation.RestrictedForEnvironment.ENVIRONMENT_SDK_RUNTIME, from=android.os.Build.VERSION_CODES.UPSIDE_DOWN_CAKE) public class WifiManager {
+  @RestrictedForEnvironment(environments="SDK Runtime", from=android.os.Build.VERSION_CODES.UPSIDE_DOWN_CAKE) public class WifiManager {
     method @RequiresPermission(anyOf={android.Manifest.permission.NETWORK_SETTINGS, android.Manifest.permission.OVERRIDE_WIFI_CONFIG}) public void addCustomDhcpOptions(@NonNull android.net.wifi.WifiSsid, @NonNull byte[], @NonNull java.util.List<android.net.DhcpOption>);
     method @RequiresPermission(anyOf={android.Manifest.permission.NETWORK_SETTINGS, android.Manifest.permission.OVERRIDE_WIFI_CONFIG}) public void removeCustomDhcpOptions(@NonNull android.net.wifi.WifiSsid, @NonNull byte[]);
-  }
-
-}
-
-package android.net.wifi.p2p {
-
-  @RestrictedForEnvironment(environments=android.annotation.RestrictedForEnvironment.ENVIRONMENT_SDK_RUNTIME, from=android.os.Build.VERSION_CODES.UPSIDE_DOWN_CAKE) public class WifiP2pManager {
-    method @RequiresPermission(anyOf={android.Manifest.permission.TETHER_PRIVILEGED, android.Manifest.permission.NETWORK_STACK}) public void setGroupExternalGateway(@NonNull android.net.wifi.p2p.WifiP2pManager.Channel, @Nullable java.net.Inet4Address, @Nullable android.net.wifi.p2p.WifiP2pManager.ActionListener);
-    field public static final String EXTRA_GATEWAY_IPV4_ADDRESS = "android.net.wifi.p2p.extra.GATEWAY_IPV4_ADDRESS";
   }
 
 }
