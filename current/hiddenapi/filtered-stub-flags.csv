@@ -4511,6 +4511,7 @@ Landroid/net/wifi/util/WifiResourceCache$$ExternalSyntheticLambda6;->apply(Ljava
 Landroid/net/wifi/util/WifiResourceCache$$ExternalSyntheticLambda7;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/net/wifi/util/WifiResourceCache$$ExternalSyntheticLambda8;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/net/wifi/util/WifiResourceCache$$ExternalSyntheticLambda9;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Lcom/android/wifi/x/android/app/admin/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/app/admin/flags/CustomFeatureFlags$$ExternalSyntheticLambda10;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/app/admin/flags/CustomFeatureFlags$$ExternalSyntheticLambda11;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/app/admin/flags/CustomFeatureFlags$$ExternalSyntheticLambda12;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -4573,7 +4574,6 @@ Lcom/android/wifi/x/android/app/admin/flags/CustomFeatureFlags$$ExternalSyntheti
 Lcom/android/wifi/x/android/app/admin/flags/CustomFeatureFlags$$ExternalSyntheticLambda64;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/app/admin/flags/CustomFeatureFlags$$ExternalSyntheticLambda65;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/app/admin/flags/CustomFeatureFlags$$ExternalSyntheticLambda66;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/wifi/x/android/app/admin/flags/CustomFeatureFlags$$ExternalSyntheticLambda67;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/app/admin/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/app/admin/flags/CustomFeatureFlags$$ExternalSyntheticLambda7;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/wifi/x/android/app/admin/flags/CustomFeatureFlags$$ExternalSyntheticLambda8;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
